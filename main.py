@@ -1,6 +1,7 @@
 
 from flask import Flask,request,jsonify
 import pickle
+import pandas
 import numpy as np
 
 model = pickle.load(open('threats.pkl','rb'))
