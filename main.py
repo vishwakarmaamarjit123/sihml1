@@ -5,6 +5,8 @@ import numpy as np
 
 model = pickle.load(open('threats.pkl','rb'))
 model1 = pickle.load(open('impacts.pkl','rb'))
+earth = pickle.load(open('earth.pkl','rb'))
+eds = pickle.load(open('edss.pkl','rb'))
 
 app = Flask(__name__)
 
@@ -71,6 +73,34 @@ def impact():
     result1 = model1.predict(input_queryty)
 
     return jsonify({"impactzone": str(result1)})
+
+
+@app.route('/eds', methods=['POST'])
+def eds():
+   
+    pressure_kpa = request.form.get('pressure_kpa')
+    Temperature = request.form.get('Temperature')
+    AQI = request.form.get('AQI')
+    toxic = request.form.get('toxic')
+    flammability = request.form.get('flammability')
+    humidityper = request.form.get('humidity-per')
+    windspeed_mh = request.form.get('windspeed_mh')
+    Radiation = request.form.get('Radiation')
+    presence_flam_gas = request.form.get('presence_flam_gas')
+    
+   
+
+
+
+
+
+
+    input_querytyy = np.array([[pressure_kpa,Temperature,AQI,toxic,flammability,humidityper,windspeed_mh,Radiation,presence_flam_gas]])
+  #  print(input_query)
+    result2 = eds.predict(input_querytyy)
+
+    return jsonify({"eds_percent": str(result2)})
+
 
 
 
