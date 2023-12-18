@@ -46,7 +46,7 @@ def predict():
 
 
 @app.route('/impact', methods=['POST'])
-def predict():
+def predict1():
     Region = request.form.get('Region')
     pressure_kpa = request.form.get('pressure_kpa')
     Temperature = request.form.get('Temperature')
@@ -67,7 +67,7 @@ def predict():
 
     input_query = np.array([[Region,pressure_kpa,Temperature,AQI,toxic,flammability,humidityper,windspeed_mh,Radiation,volume_kl,releaserate_pou,rockdens_kgmc]])
   #  print(input_query)
-    result = model.predict(input_query)
+    result = model.predict1(input_query)
 
     return jsonify({"impactzone": str(result)})
 
