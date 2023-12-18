@@ -77,7 +77,7 @@ def impact():
 
 
 @app.route('/eds', methods=['POST'])
-def eds():
+def edds():
    
     pressure_kpa = request.form.get('pressure_kpa')
     Temperature = request.form.get('Temperature')
