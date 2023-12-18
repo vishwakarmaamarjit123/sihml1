@@ -17,7 +17,7 @@ def home():
 
 
 @app.route('/percentage', methods=['POST'])
-def predict():
+def predict1():
     Region = request.form.get('Region')
     Plateau  = request.form.get('Plateau')
     Earthquake_Richter = request.form.get('Earthquake_Richter')
