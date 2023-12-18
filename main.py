@@ -62,15 +62,17 @@ def predict1():
     rockdens_kgmc = request.form.get('rockdens_kgmc')
 
     input_query1 = np.array([[Region,pressure_kpa,Temperature,AQI,toxic,flammability,humidityper,windspeed_mh,Radiation,volume_kl,releaserate_pou,rockdens_kgmc]])
-  #  print(input_query)
+     result1 = model1.predict1(input_query1)
+
+      return jsonify({"impactzone": str(result1)})
+
+
+
 
 
 
     
-result1 = model1.predict1(input_query1)
-
-return jsonify({"impactzone": str(result1)})
-
+       
 
 
 
