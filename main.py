@@ -12,7 +12,7 @@ def home():
     return "hello world"
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/percentage', methods=['POST'])
 def predict():
     Region = request.form.get('Region')
     Plateau  = request.form.get('Plateau')
@@ -41,6 +41,35 @@ def predict():
     result = model.predict(input_query)
 
     return jsonify({"Percentage_Threat_Zone": str(result)})
+
+
+
+
+@app.route('/impact', methods=['POST'])
+def predict():
+    Region = request.form.get('Region')
+    pressure_kpa = request.form.get('pressure_kpa')
+    Temperature = request.form.get('Temperature')
+    AQI = request.form.get('AQI')
+    toxic = request.form.get('toxic')
+    flammability = request.form.get('flammability')
+    humidityper = request.form.get('humidity-per')
+    windspeed_mh = request.form.get('windspeed_mh')
+    Radiation = request.form.get('Radiation')
+    volume_kl = request.form.get('volume_kl')
+    releaserate_pou = request.form.get('releaserate_pou')
+    rockdens_kgmc = request.form.get('rockdens_kgmc')
+
+
+
+
+
+
+    input_query = np.array([[Region,pressure_kpa,Temperature,AQI,toxic,flammability,humidityper,windspeed_mh,Radiation,volume_kl,releaserate_pou,rockdens_kgmc]])
+  #  print(input_query)
+    result = model.predict(input_query)
+
+    return jsonify({"impactzone": str(result)})
 
 
 
