@@ -9,7 +9,7 @@ model1 = pickle.load(open('impacts.pkl','rb'))
 earths = pickle.load(open('earth.pkl','rb'))
 eds = pickle.load(open('edss.pkl','rb'))
 
-result2ea
+
 
 app = Flask(__name__)
 
