@@ -20,9 +20,11 @@ def home():
 
 @app.route('/percentage', methods=['POST'])
 def predict1():
+    Latitude = request.form.get('Latitude')
+    Longitude = request.form.get('Longitude')
     Region = request.form.get('Region')
     Plateau  = np.random.choice([0,1])
-    Earthquake_Richter = request.form.get('Earthquake_Richter')
+    Earthquake_Richter = earthss(Latitude , Longitude)
     Hurricanes = np.random.choice([0,1])
     Typhoons = np.random.choice([0,1])
     Tsunamis = np.random.choice([0,1])
@@ -108,11 +110,10 @@ def edds():
 
 
 
-@app.route('/earth', methods=['POST'])
-def earthss():
+
+def earthss(Latitude, Longitude):
    
-    Latitude = request.form.get('Latitude')
-    Longitude = request.form.get('Longitude')
+   
    
     
    
