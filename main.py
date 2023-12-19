@@ -6,7 +6,7 @@ import numpy as np
 
 model = pickle.load(open('threats.pkl','rb'))
 model1 = pickle.load(open('impacts.pkl','rb'))
-earth = pickle.load(open('earth.pkl','rb'))
+earths = pickle.load(open('earth.pkl','rb'))
 eds = pickle.load(open('edss.pkl','rb'))
 
 app = Flask(__name__)
@@ -31,8 +31,8 @@ def predict1():
     Temperature = request.form.get('Temperature')
     AQI = request.form.get('AQI')
     Sea_Levels = request.form.get('Sea_Levels')
-    Radiation = request.form.get('Radiation')
-    Population_Density = request.form.get('Population_Density')
+    Radiation =    np.random.uniform(0,100)
+    Population_Density = np.random.uniform(10, 1000)
     Emergency_Response_Capabilities = request.form.get('Emergency_Response_Capabilities')
 
 
@@ -106,6 +106,25 @@ def edds():
 
 
 
+@app.route('/earth', methods=['POST'])
+def earthss():
+   
+    Latitude = request.form.get('Latitude')
+    Longitude = request.form.get('Longitude')
+   
+    
+   
+
+
+
+
+
+
+    input_querytyy1 = np.array([[Latitude,Longitude]])
+  #  print(input_query)
+    result2ea = earths.predict(input_querytyy1)
+
+    return jsonify({"Magnitude": str(result2ea)})
 
 
 
