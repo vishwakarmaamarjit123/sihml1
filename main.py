@@ -21,15 +21,15 @@ def home():
 @app.route('/percentage', methods=['POST'])
 def predict1():
     Region = request.form.get('Region')
-    Plateau  = np.random.choice(0,1)
+    Plateau  = np.random.choice([0,1])
     Earthquake_Richter = request.form.get('Earthquake_Richter')
-    Hurricanes = np.random.choice(0,1)
-    Typhoons = np.random.choice(0,1)
-    Tsunamis = np.random.choice(0,1)
-    Lightning = np.random.choice(0,1)
-    Active_Volcanoes = np.random.choice(0,1)
-    Floods = np.random.choice(0,1)
-    Tornadoes = np.random.choice(0,1)
+    Hurricanes = np.random.choice([0,1])
+    Typhoons = np.random.choice([0,1])
+    Tsunamis = np.random.choice([0,1])
+    Lightning = np.random.choice([0,1])
+    Active_Volcanoes = np.random.choice([0,1])
+    Floods = np.random.choice([0,1])
+    Tornadoes = np.random.choice([0,1])
     Temperature = request.form.get('Temperature')
     AQI = request.form.get('AQI')
     Sea_Levels = request.form.get('Sea_Levels')
@@ -126,7 +126,7 @@ def earthss():
   #  print(input_query)
     result2ea = earths.predict(input_querytyy1)
 
-    return jsonify({"Magnitude": str(result2ea)})
+    return result2ea
 
 
 
