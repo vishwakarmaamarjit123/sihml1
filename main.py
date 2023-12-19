@@ -6,7 +6,7 @@ import numpy as np
 
 model = pickle.load(open('threats.pkl','rb'))
 model1 = pickle.load(open('impacts.pkl','rb'))
-earths = pickle.load(open('earth.pkl','rb'))
+earths = pickle.load(open('earth1.pkl','rb'))
 eds = pickle.load(open('edss.pkl','rb'))
 
 
