@@ -4,9 +4,9 @@ import pandas
 import numpy as np
 
 model = pickle.load(open('threats.pkl', 'rb'))
-model1 = pickle.load(open('impacts.pkl', 'rb'))
+model1 = pickle.load(open('impactxg.pkl', 'rb'))
 earths = pickle.load(open('earth1.pkl', 'rb'))
-eds = pickle.load(open('edss.pkl', 'rb'))
+eds = pickle.load(open('edsxg2.pkl', 'rb'))
 
 app = Flask(__name__)
 
@@ -85,12 +85,14 @@ def edds():
     AQI = request.form.get('AQI')
     toxic = request.form.get('toxic')
     flammability = request.form.get('flammability')
+    higherchem = request.form.get('higherchem')
+    stateofchem = request.form.get('stateofchem')
     humidityper = request.form.get('humidity-per')
     windspeed_mh = request.form.get('windspeed_mh')
     Radiation = np.random.uniform(0, 100)
     presence_flam_gas = request.form.get('presence_flam_gas')
 
-    input_querytyy = np.array([[pressure_kpa, Temperature, AQI, toxic, flammability, humidityper, windspeed_mh,
+    input_querytyy = np.array([[pressure_kpa, Temperature, AQI, toxic, flammability,higherchem,stateofchem, humidityper, windspeed_mh,
                                 Radiation, presence_flam_gas]])
     #  print(input_query)
     result2 = eds.predict(input_querytyy)[0]
