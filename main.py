@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import pickle
 import pandas
 import numpy as np
+import json
 
 model = pickle.load(open('threats.pkl', 'rb'))
 model1 = pickle.load(open('impacts2.pkl', 'rb'))
