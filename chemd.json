@@ -1,315 +1,503 @@
 {
-  "flammableGases": [
-    {
-      "name": "Ethane",
-      "flammability": "High",
-      "toxicity": "Non-toxic",
-      "color": "Colorless",
-      "odor": "Ether-like",
-      "state": "Gas",
-      "boilingPoint": "-88.6°C",
-      "meltingPoint": "-182.8°C"
-    },
-    {
-      "name": "Propylene",
-      "flammability": "High",
-      "toxicity": "Non-toxic",
-      "color": "Colorless",
-      "odor": "Faintly sweet",
-      "state": "Gas",
-      "boilingPoint": "-47.7°C",
-      "meltingPoint": "-185.2°C"
-    },
-    {
-      "name": "Benzene",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "color": "Colorless",
-      "odor": "Sweet aromatic",
-      "state": "Liquid",
-      "boilingPoint": "80.1°C",
-      "meltingPoint": "5.5°C"
-    },
-    {
-      "name": "Ethylene oxide",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "color": "Colorless",
-      "odor": "Sweet, ether-like",
-      "state": "Gas",
-      "boilingPoint": "10.7°C",
-      "meltingPoint": "-111.5°C"
-    },
-    {
-      "name": "Silane",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "color": "Colorless",
-      "odor": "Garlic-like odor",
-      "state": "Gas",
-      "boilingPoint": "-111.8°C",
-      "meltingPoint": "-185°C"
-    },
-    {
-      "name": "Carbon monoxide",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "color": "Colorless",
-      "odor": "Odorless",
-      "state": "Gas",
-      "boilingPoint": "-191.5°C",
-      "meltingPoint": "-205°C"
-    },
-    {
-      "name": "Hydrogen cyanide",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "color": "Colorless",
-      "odor": "Bitter almond odor",
-      "state": "Gas",
-      "boilingPoint": "-25.6°C",
-      "meltingPoint": "-13.4°C"
-    },
-    {
-      "name": "Chlorine",
-      "flammability": "Non-flammable",
-      "toxicity": "Toxic",
-      "color": "Yellow-green",
-      "odor": "Pungent, suffocating odor",
-      "state": "Gas",
-      "boilingPoint": "-34.04°C",
-      "meltingPoint": "-101.5°C"
-    },
-    {
-      "name": "Ammonia",
-      "flammability": "Non-flammable",
-      "toxicity": "Toxic",
-      "color": "Colorless",
-      "odor": "Pungent, suffocating odor",
-      "state": "Gas",
-      "boilingPoint": "-33.34°C",
-      "meltingPoint": "-77.73°C"
-    },
-    {
-      "name": "Ozone",
-      "flammability": "Non-flammable",
-      "toxicity": "Toxic",
-      "color": "Pale blue",
-      "odor": "Pungent",
-      "state": "Gas",
-      "boilingPoint": "-112°C",
-      "meltingPoint": "-193°C"
-    },
-    {
-      "name": "Nitrous oxide",
-      "flammability": "Non-flammable",
-      "toxicity": "Non-toxic",
-      "color": "Colorless",
-      "odor": "Slightly sweet odor",
-      "state": "Gas",
-      "boilingPoint": "-88.5°C",
-      "meltingPoint": "-90.8°C"
-    },
-    {
-      "name": "Phosgene",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "color": "Colorless",
-      "odor": "Suffocating odor",
-      "state": "Gas",
-      "boilingPoint": "8.3°C",
-      "meltingPoint": "-118.1°C"
-    },
-    {
-      "name": "Methylamine",
-      "flammability": "High",
-      "toxicity": "Toxic",
-      "color": "Colorless",
-      "odor": "Fishy odor",
-      "state": "Gas",
-      "boilingPoint": "-6.3°C",
-      "meltingPoint": "-93.5°C"
-    },
-    {
-      "name": "Benzene",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "color": "Colorless",
-      "odor": "Sweet aromatic odor",
-      "state": "Liquid",
-      "boilingPoint": "80.1°C",
-      "meltingPoint": "5.5°C"
-    },
-    {
-      "name": "Chlorine",
-      "flammability": "Non-flammable",
-      "toxicity": "Toxic",
-      "color": "Yellow-green",
-      "odor": "Pungent, suffocating odor",
-      "state": "Gas",
-      "boilingPoint": "-34.04°C",
-      "meltingPoint": "-101.5°C"
-    },
-    {
-      "name": "Methane",
-      "flammability": "High",
-      "toxicity": "Non-toxic",
-      "color": "Colorless",
-      "odor": "Odorless",
-      "state": "Gas",
-      "boilingPoint": "-161.5°C",
-      "meltingPoint": "-182.5°C"
-    },
-    {
-      "name": "Ethanol",
-      "flammability": "High",
-      "toxicity": "Moderate",
-      "color": "Colorless",
-      "odor": "Pungent, sweet odor",
-      "state": "Liquid",
-      "boilingPoint": "78.37°C",
-      "meltingPoint": "-114.1°C"
-    },
-    {
-      "name": "Acetaldehyde",
-      "flammability": "High",
-      "toxicity": "Moderately toxic",
-      "color": "Colorless",
-      "odor": "Pungent, fruity odor",
-      "state": "Liquid",
-      "boilingPoint": "20.8°C",
-      "meltingPoint": "-123.4°C"
-    },
-    {
-      "name": "Sulfur hexafluoride",
-      "flammability": "Non-flammable",
-      "toxicity": "Non-toxic",
-      "color": "Colorless",
-      "odor": "Odorless",
-      "state": "Gas",
-      "boilingPoint": "-64.05°C",
-      "meltingPoint": "-50.8°C"
-    },
-    {
-      "name": "Sulfur dioxide",
-      "chemicalFormula": "SO2",
-      "flammability": "Non-flammable",
-      "toxicity": "Toxic",
-      "properties": {
+    "flammableGases": [
+      {
+        "name": "Ethane",
+        "flammability": "High",
+        "toxicity": "Non-toxic",
         "color": "Colorless",
-        "odor": "Pungent, suffocating odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Bromine",
-      "chemicalFormula": "Br2",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "properties": {
-        "color": "Red-brown",
-        "odor": "Pungent, suffocating odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Bromine",
-      "chemicalFormula": "Br2",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "properties": {
-        "color": "Red-brown",
-        "odor": "Pungent, suffocating odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Ethylene",
-      "chemicalFormula": "C2H4",
-      "flammability": "High",
-      "toxicity": "Moderately toxic",
-      "properties": {
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its odorless and colorless nature; move to fresh air if exposed in a confined space."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Assess risks associated with its storage, transportation, and handling.",
+          "Training": "Provide comprehensive training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Ether-like",
+        "state": "Gas",
+        "boilingPoint": "-88.6°C",
+        "meltingPoint": "-182.8°C"
+      },
+      {
+        "name": "Propylene",
+        "flammability": "High",
+        "toxicity": "Non-toxic",
         "color": "Colorless",
-        "odor": "Sweet, musty odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Phosgene",
-      "chemicalFormula": "COCl2",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "properties": {
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its sweet, gasoline-like odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for its storage, handling, and transportation.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Faintly sweet",
+        "state": "Gas",
+        "boilingPoint": "-47.7°C",
+        "meltingPoint": "-185.2°C"
+      },
+      {
+        "name": "Benzene",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
         "color": "Colorless",
-        "odor": "Pungent, musty odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Methyl chloride",
-      "chemicalFormula": "CH3Cl",
-      "flammability": "High",
-      "toxicity": "Moderately toxic",
-      "properties": {
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its sweet, aromatic odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct detailed risk assessments for storage, handling, and exposure.",
+          "Training": "Provide comprehensive training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Sweet aromatic",
+        "state": "Liquid",
+        "boilingPoint": "80.1°C",
+        "meltingPoint": "5.5°C"
+      },
+      
+  
+      {
+        "name": "Ethylene oxide",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
         "color": "Colorless",
-        "odor": "Sweet, chloroform-like odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Vinyl chloride",
-      "chemicalFormula": "C2H3Cl",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "properties": {
-        "color": "Colorless",
-        "odor": "Faint, sweet odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Hydrogen sulfide",
-      "chemicalFormula": "H2S",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "properties": {
-        "color": "Colorless",
-        "odor": "Rotten egg odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Arsine",
-      "chemicalFormula": "AsH3",
-      "flammability": "High",
-      "toxicity": "Highly toxic",
-      "properties": {
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its ether-like odor; leave the area if detected."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct risk assessments for its usage; implement strict safety procedures.",
+          "Training": "Provide comprehensive training on handling, ventilation, and protective gear usage."
+        },
+        "odor": "Sweet, ether-like",
+        "state": "Gas",
+        "boilingPoint": "10.7°C",
+        "meltingPoint": "-111.5°C"
+      },
+      {
+        "name": "Silane",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
         "color": "Colorless",
         "odor": "Garlic-like odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Acetylene",
-      "chemicalFormula": "C2H2",
-      "flammability": "High",
-      "toxicity": "Moderately toxic",
-      "properties": {
+        "state": "Gas",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its sharp, repugnant odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for handling and storage.",
+          "Training": "Provide specialized training on safe handling and emergency response measures."
+        },
+        "boilingPoint": "-111.8°C",
+        "meltingPoint": "-185°C"
+      },
+      {
+        "name": "Carbon monoxide",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
         "color": "Colorless",
-        "odor": "Garlic-like odor",
-        "state": "Gas"
-      }
-    },
-    {
-      "name": "Nitric oxide",
-      "chemicalFormula": "NO",
-      "flammability": "High",
-      "toxicity": "Toxic",
-      "properties": {
+        "citizensSafetyTips": {
+          "Awareness": "Install carbon monoxide detectors; evacuate if alarms sound."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct risk assessments for sources of CO and implement safeguards.",
+          "Training": "Educate workers on detection, emergency response, and ventilation."
+        },
+        "odor": "Odorless",
+        "state": "Gas",
+        "boilingPoint": "-191.5°C",
+        "meltingPoint": "-205°C"
+      },
+    
+      {
+        "name": "Hydrogen cyanide",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
         "color": "Colorless",
-        "odor": "Sharp, sweet odor",
-        "state": "Gas"
-      }
-    }
-  ]
+        "odor": "Bitter almond odor",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize the faint almond-like odor; evacuate if detected.",
+          "Ventilation": "Leave windows open if suspected; avoid inhalation."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Assess risks associated with its use; implement safety protocols.",
+          "Training": "Train workers on its hazards, safe handling, and emergency response.",
+          "SafetyEquipment": {
+            "GasMasks": "Provide gas masks for employees' protection.",
+            "VentilationSystems": "Install effective ventilation to prevent exposure."
+          },
+          "EmergencyResponsePlan": "Develop an emergency plan for leaks or exposure incidents."
+        },
+        "state": "Gas",
+        "boilingPoint": "-25.6°C",
+        "meltingPoint": "-13.4°C"
+      },
+      {
+        "name": "Chlorine",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Yellow-green",
+        "odor": "Pungent, suffocating odor",
+        "state": "Gas",
+        "boilingPoint": "-34.04°C",
+        "meltingPoint": "-101.5°C"
+      },
+      {
+        "name": "Ammonia",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Colorless",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize the pungent, suffocating odor; evacuate if smelled."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Assess risks in handling, storage, and transportation.",
+          "Training": "Educate workers on safe handling, emergency response, and first aid.",
+          "SafetyEquipment": {
+            "ProtectiveClothing": "Provide proper clothing for workers' protection."
+          },
+          "EmergencyResponsePlan": "Develop procedures for leaks and exposure incidents."
+        },
+        "odor": "Pungent, suffocating odor",
+        "state": "Gas",
+        "boilingPoint": "-33.34°C",
+        "meltingPoint": "-77.73°C"
+      },
+      
+      {
+        "name": "Ozone",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Pale blue",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its pungent, chlorine-like odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct comprehensive risk assessments for handling and exposure.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Pungent",
+        "state": "Gas",
+        "boilingPoint": "-112°C",
+        "meltingPoint": "-193°C"
+      },
+      {
+        "name": "Nitrous oxide",
+        "flammability": "Non-flammable",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its sweet, slightly fruity odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for storage, handling, and exposure.",
+          "Training": "Provide comprehensive training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Slightly sweet odor",
+        "state": "Gas",
+        "boilingPoint": "-88.5°C",
+        "meltingPoint": "-90.8°C"
+      },
+      {
+        "name": "Phosgene",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Suffocating odor",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its suffocating odor, similar to freshly cut hay or grass; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct detailed risk assessments for storage, handling, and exposure.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        }
+,  
+        "state": "Gas",
+        "boilingPoint": "8.3°C",
+        "meltingPoint": "-118.1°C"
+      },
+      {
+        "name": "Methylamine",
+        "flammability": "High",
+        "toxicity": "Toxic",
+        "color": "Colorless",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its fishy or ammonia-like odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for handling, storage, and transportation.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Fishy odor",
+        "state": "Gas",
+        "boilingPoint": "-6.3°C",
+        "meltingPoint": "-93.5°C"
+      },
+      
+     
+    
+      {
+        "name": "Chlorine",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Yellow-green",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize the pungent, bleach-like odor; leave the area if detected."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct risk assessments for safe handling and storage.",
+          "Training": "Educate workers on handling, storage, and emergency response.",
+          "SafetyEquipment": {
+            "Respirators": "Provide respiratory protection for workers.",
+            "StorageProcedures": "Implement safe storage procedures to prevent leaks."
+          },
+          "EmergencyResponsePlan": "Establish protocols for immediate evacuation and containment."
+        },
+        "odor": "Pungent, suffocating odor",
+        "state": "Gas",
+        "boilingPoint": "-34.04°C",
+        "meltingPoint": "-101.5°C"
+      },
+      
+     
+      {
+        "name": "Methane",
+        "flammability": "High",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "odor": "Odorless",
+        "state": "Gas",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its odorless and colorless nature; evacuate if detected in a confined space."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for its storage, transportation, and handling.",
+          "Training": "Provide comprehensive training on safe handling procedures and emergency response measures."
+        },
+        "boilingPoint": "-161.5°C",
+        "meltingPoint": "-182.5°C"
+      },
+      {
+        "name": "Ethanol",
+        "flammability": "High",
+        "toxicity": "Moderate",
+        "color": "Colorless",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its distinctive, sweet smell; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for storage, handling, and exposure.",
+          "Training": "Provide comprehensive training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Pungent, sweet odor",
+        "state": "Liquid",
+        "boilingPoint": "78.37°C",
+        "meltingPoint": "-114.1°C"
+      },
+      {
+        "name": "Acetaldehyde",
+        "flammability": "High",
+        "toxicity": "Moderately toxic",
+        "color": "Colorless",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its pungent, fruity odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for handling, storage, and exposure.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Pungent, fruity odor",
+        "state": "Liquid",
+        "boilingPoint": "20.8°C",
+        "meltingPoint": "-123.4°C"
+      },
+      
+      {
+        "name": "Sulfur hexafluoride",
+        "flammability": "Non-flammable",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its inert and odorless nature; move to fresh air if exposed in a confined space."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct comprehensive risk assessments for handling, storage, and transportation.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },
+        "odor": "Odorless",
+        "state": "Gas",
+        "boilingPoint": "-64.05°C",
+        "meltingPoint": "-50.8°C"
+      },
+      
+    
+      {
+        "name": "Sulfur dioxide",
+        "chemicalFormula": "SO2",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "citizensSafetyTips": {
+          "Awareness": "Detect its sharp, choking odor; seek fresh air and medical help if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for safe handling and storage.",
+          "Training": "Train workers on safe handling, ventilation, and emergency response."
+        },
+        "properties": {
+          "color": "Colorless",
+          "odor": "Pungent, suffocating odor",
+          "state": "Gas"
+        }
+      },
+      
+      
+      {
+        "name": "Bromine",
+        "chemicalFormula": "Br2",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its reddish-brown color and irritating odor; evacuate immediately if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Evaluate risks during handling and storage; implement strict safety protocols.",
+          "Training": "Provide comprehensive training on handling and emergency response."
+        },
+        "properties": {
+          "color": "Red-brown",
+          "odor": "Pungent, suffocating odor",
+          "state": "Gas"
+        }
+      },
+     
+      {
+        "name": "Ethylene",
+        "chemicalFormula": "C2H4",
+        "flammability": "High",
+        "toxicity": "Moderately toxic",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its slightly sweet, faint odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for storage, handling, and exposure.",
+          "Training": "Provide comprehensive training on safe handling procedures and emergency response measures."
+        },
+        "properties": {
+          "color": "Colorless",
+          "odor": "Sweet, musty odor",
+          "state": "Gas"
+        }
+      },
+      
+      {
+        "name": "Methyl chloride",
+        "chemicalFormula": "CH3Cl",
+        "flammability": "High",
+        "toxicity": "Moderately toxic",
+        "citizensSafetyTips": {
+          "Awareness": "Detect its sweet, chloroform-like odor; move to fresh air if sensed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Evaluate risks associated with handling and transportation.",
+          "Training": "Educate workers on proper handling procedures, storage, and safety measures."
+        },
+        "properties": {
+          "color": "Colorless",
+          "odor": "Sweet, chloroform-like odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Vinyl chloride",
+        "chemicalFormula": "C2H3Cl",
+        "flammability": "High",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its sweet, ether-like odor; move to fresh air if detected."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct comprehensive risk assessments for handling and storage.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },  
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Faint, sweet odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Hydrogen sulfide",
+        "chemicalFormula": "H2S",
+        "flammability": "High",
+        "citizensSafetyTips": {
+          "Awareness": "Detect its rotten egg odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct detailed risk assessments for handling, storage, and exposure.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Rotten egg odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Arsine",
+        "chemicalFormula": "AsH3",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "citizensSafetyTips": {
+          "Awareness": "Know the garlic-like odor; evacuate if experienced."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct risk analysis for its usage and handling.",
+          "Training": "Train personnel in safe handling, use, and emergency response.",
+          "SafetyEquipment": {
+            "Respirators": "Supply respirators with adequate filtration capabilities."
+          },
+          "EmergencyResponsePlan": "Establish procedures for leaks and accidents."
+        },
+        "properties": {
+          "color": "Colorless",
+          "odor": "Garlic-like odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Acetylene",
+        "chemicalFormula": "C2H2",
+        "flammability": "High",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its garlic-like odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct thorough risk assessments for handling, storage, and transportation.",
+          "Training": "Provide comprehensive training on safe handling procedures and emergency response measures."
+        },
+        "toxicity": "Moderately toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Garlic-like odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Nitric oxide",
+        "chemicalFormula": "NO",
+        "flammability": "High",
+        "toxicity": "Toxic",
+        "citizensSafetyTips": {
+          "Awareness": "Recognize its sharp, slightly sweet odor; move to fresh air if exposed."
+        },
+        "industrialAuthoritiesSafetyMeasures": {
+          "RiskAssessment": "Conduct detailed risk assessments for handling, storage, and exposure.",
+          "Training": "Provide specialized training on safe handling procedures and emergency response measures."
+        },
+        "properties": {
+          "color": "Colorless",
+          "odor": "Sharp, sweet odor",
+          "state": "Gas"
+        }
+     
+  }
+]
 }
+
