@@ -1,0 +1,332 @@
+{
+    "flammableGases": [
+      {
+        "name": "Ethane",
+        "flammability": "High",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "odor": "Ether-like",
+        "state": "Gas",
+        "boilingPoint": "-88.6°C",
+        "meltingPoint": "-182.8°C"
+      },
+      {
+        "name": "Propylene",
+        "flammability": "High",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "odor": "Faintly sweet",
+        "state": "Gas",
+        "boilingPoint": "-47.7°C",
+        "meltingPoint": "-185.2°C"
+      },
+      {
+        "name": "Benzene",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Sweet aromatic",
+        "state": "Liquid",
+        "boilingPoint": "80.1°C",
+        "meltingPoint": "5.5°C"
+      },
+      
+  
+      {
+        "name": "Ethylene oxide",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Sweet, ether-like",
+        "state": "Gas",
+        "boilingPoint": "10.7°C",
+        "meltingPoint": "-111.5°C"
+      },
+      {
+        "name": "Silane",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Garlic-like odor",
+        "state": "Gas",
+        "boilingPoint": "-111.8°C",
+        "meltingPoint": "-185°C"
+      },
+      {
+        "name": "Carbon monoxide",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Odorless",
+        "state": "Gas",
+        "boilingPoint": "-191.5°C",
+        "meltingPoint": "-205°C"
+      },
+    
+      {
+        "name": "Hydrogen cyanide",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Bitter almond odor",
+        "state": "Gas",
+        "boilingPoint": "-25.6°C",
+        "meltingPoint": "-13.4°C"
+      },
+      {
+        "name": "Chlorine",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Yellow-green",
+        "odor": "Pungent, suffocating odor",
+        "state": "Gas",
+        "boilingPoint": "-34.04°C",
+        "meltingPoint": "-101.5°C"
+      },
+      {
+        "name": "Ammonia",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Colorless",
+        "odor": "Pungent, suffocating odor",
+        "state": "Gas",
+        "boilingPoint": "-33.34°C",
+        "meltingPoint": "-77.73°C"
+      },
+      
+      {
+        "name": "Ozone",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Pale blue",
+        "odor": "Pungent",
+        "state": "Gas",
+        "boilingPoint": "-112°C",
+        "meltingPoint": "-193°C"
+      },
+      {
+        "name": "Nitrous oxide",
+        "flammability": "Non-flammable",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "odor": "Slightly sweet odor",
+        "state": "Gas",
+        "boilingPoint": "-88.5°C",
+        "meltingPoint": "-90.8°C"
+      },
+      {
+        "name": "Phosgene",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Suffocating odor",
+        "state": "Gas",
+        "boilingPoint": "8.3°C",
+        "meltingPoint": "-118.1°C"
+      },
+      {
+        "name": "Methylamine",
+        "flammability": "High",
+        "toxicity": "Toxic",
+        "color": "Colorless",
+        "odor": "Fishy odor",
+        "state": "Gas",
+        "boilingPoint": "-6.3°C",
+        "meltingPoint": "-93.5°C"
+      },
+      {
+        "name": "Benzene",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "color": "Colorless",
+        "odor": "Sweet aromatic odor",
+        "state": "Liquid",
+        "boilingPoint": "80.1°C",
+        "meltingPoint": "5.5°C"
+      },
+     
+    
+      {
+        "name": "Chlorine",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "color": "Yellow-green",
+        "odor": "Pungent, suffocating odor",
+        "state": "Gas",
+        "boilingPoint": "-34.04°C",
+        "meltingPoint": "-101.5°C"
+      },
+      
+     
+      {
+        "name": "Methane",
+        "flammability": "High",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "odor": "Odorless",
+        "state": "Gas",
+        "boilingPoint": "-161.5°C",
+        "meltingPoint": "-182.5°C"
+      },
+      {
+        "name": "Ethanol",
+        "flammability": "High",
+        "toxicity": "Moderate",
+        "color": "Colorless",
+        "odor": "Pungent, sweet odor",
+        "state": "Liquid",
+        "boilingPoint": "78.37°C",
+        "meltingPoint": "-114.1°C"
+      },
+      {
+        "name": "Acetaldehyde",
+        "flammability": "High",
+        "toxicity": "Moderately toxic",
+        "color": "Colorless",
+        "odor": "Pungent, fruity odor",
+        "state": "Liquid",
+        "boilingPoint": "20.8°C",
+        "meltingPoint": "-123.4°C"
+      },
+      
+      {
+        "name": "Sulfur hexafluoride",
+        "flammability": "Non-flammable",
+        "toxicity": "Non-toxic",
+        "color": "Colorless",
+        "odor": "Odorless",
+        "state": "Gas",
+        "boilingPoint": "-64.05°C",
+        "meltingPoint": "-50.8°C"
+      },
+      
+    
+      {
+        "name": "Sulfur dioxide",
+        "chemicalFormula": "SO2",
+        "flammability": "Non-flammable",
+        "toxicity": "Toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Pungent, suffocating odor",
+          "state": "Gas"
+        }
+      },
+      
+      
+      {
+        "name": "Bromine",
+        "chemicalFormula": "Br2",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Red-brown",
+          "odor": "Pungent, suffocating odor",
+          "state": "Gas"
+        }
+      },
+     
+    
+      
+      {
+        "name": "Bromine",
+        "chemicalFormula": "Br2",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Red-brown",
+          "odor": "Pungent, suffocating odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Ethylene",
+        "chemicalFormula": "C2H4",
+        "flammability": "High",
+        "toxicity": "Moderately toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Sweet, musty odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Phosgene",
+        "chemicalFormula": "COCl2",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Pungent, musty odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Methyl chloride",
+        "chemicalFormula": "CH3Cl",
+        "flammability": "High",
+        "toxicity": "Moderately toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Sweet, chloroform-like odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Vinyl chloride",
+        "chemicalFormula": "C2H3Cl",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Faint, sweet odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Hydrogen sulfide",
+        "chemicalFormula": "H2S",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Rotten egg odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Arsine",
+        "chemicalFormula": "AsH3",
+        "flammability": "High",
+        "toxicity": "Highly toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Garlic-like odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Acetylene",
+        "chemicalFormula": "C2H2",
+        "flammability": "High",
+        "toxicity": "Moderately toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Garlic-like odor",
+          "state": "Gas"
+        }
+      },
+      {
+        "name": "Nitric oxide",
+        "chemicalFormula": "NO",
+        "flammability": "High",
+        "toxicity": "Toxic",
+        "properties": {
+          "color": "Colorless",
+          "odor": "Sharp, sweet odor",
+          "state": "Gas"
+        }
+     
+  }
+]
+}
