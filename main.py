@@ -16,6 +16,19 @@ def home():
     return "hello world"
 
 
+@app.route('/chemical', methods = ['GET'])
+def chem():
+    with open("chemd.json", "r") as json_file:
+        data = json.load(json_file)
+
+    # Convert the data to a JSON string
+    json_data = json.dumps(data)
+
+    # Include the JSON data in the query parameters
+    params = {'json_data': json_data}
+    return params
+
+
 def earthss(Latitude, Longitude):
     input_querytyy1 = np.array([[Latitude, Longitude]])
     #  print(input_query)
