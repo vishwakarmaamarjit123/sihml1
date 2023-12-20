@@ -90,7 +90,7 @@ def edds():
     humidityper = request.form.get('humidity-per')
     windspeed_mh = request.form.get('windspeed_mh')
     Radiation = np.random.uniform(0, 100)
-    presence_flam_gas = request.form.get('presence_flam_gas')
+    presence_flam_gas = np.random.uniform(0,100)
 
     input_querytyy = np.array([[pressure_kpa, Temperature, AQI, toxic, flammability,higherchem,stateofchem, humidityper, windspeed_mh,
                                 Radiation, presence_flam_gas]])
