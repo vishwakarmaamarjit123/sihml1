@@ -4,7 +4,7 @@ import pandas
 import numpy as np
 
 model = pickle.load(open('threats.pkl', 'rb'))
-model1 = pickle.load(open('impacts.pkl', 'rb'))
+model1 = pickle.load(open('impacts2.pkl', 'rb'))
 earths = pickle.load(open('earth1.pkl', 'rb'))
 eds = pickle.load(open('edsxg2.pkl', 'rb'))
 
