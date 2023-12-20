@@ -88,6 +88,9 @@ def impact():
                                Radiation, volume_kl, releaserate_pou, rockdens_kgmc]])
     #  print(input_query)
     result1 = model1.predict(input_queryty)[0]
+    a = np.random.randint(-4,4,size=1)
+   
+    result1 = result1-a
 
     return jsonify({"impactzone": str(result1)})
 
